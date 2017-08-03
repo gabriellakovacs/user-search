@@ -1,0 +1,23 @@
+.search-imput-container {
+  position: relative;
+  border: 1px solid $blue;
+  background: $white;
+}
+
+
+.search-imput {
+  width: 100%;
+  height: $inputHeight;
+  padding: 5px;
+  padding-left: 45px;
+  line-height: $inputHeight;
+  border: none;
+}
+
+
+.search-imput-icon {
+  position: absolute;
+  width: 30px;
+  top: 10px;
+  left: 10px;
+}

@@ -1,0 +1,9 @@
+/*------------------------------------*\
+  #BREAKPOINTS
+\*------------------------------------*/
+
+@mixin bp-s() {
+    @media only screen and (min-width: $bp-s) {
+        @content;
+    }
+}

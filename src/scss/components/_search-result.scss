@@ -1,0 +1,42 @@
+.search-result {
+  width: 100%;
+  height: $inputHeight;
+  line-height: $inputHeight;
+  border-bottom: 1px solid $gray;
+  background: $white;
+  transition: background 0.3s ease-in;
+
+  &:hover {
+    background: $blue;
+  }
+
+  &:first-child {
+    border-bottom: 1px solid $gray;
+  }
+
+  &.highlight {
+    background: $blue;
+  }
+}
+
+
+.search-result__url {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+
+.search-result__avatar {
+  display: inline-block;
+  width: $inputHeight;
+  padding: 5px;
+}
+
+
+.search-result__login {
+  display: inline-block;
+  padding-left: 10px;
+  vertical-align: top;
+  color: black;
+}

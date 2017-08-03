@@ -1,0 +1,22 @@
+//SETTINGS
+@import "settings/_breakpoints.scss";
+@import "settings/_colors.scss";
+@import "settings/_sizes.scss";
+
+
+//TOOLS
+@import "tools/_mediaQueries.scss";
+
+
+//GENERAL
+@import "general/_general.scss";
+
+
+//COMPONENTS
+@import "components/_search-imput.scss";
+@import "components/_search-result.scss";
+
+
+//MODULES
+@import "modules/_github-user-search.scss";
+@import "modules/_other-content.scss";
